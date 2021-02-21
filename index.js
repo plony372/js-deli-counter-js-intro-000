@@ -20,7 +20,7 @@ function nowServing(currntLine){
                                        `${i != (katzDeliLine.length-1) ? ',' : ''}`;
      }
     }else{
-      return "The line is currently empty"
+      return "The line is currently empty."
     }
     return message;
   }

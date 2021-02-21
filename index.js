@@ -12,7 +12,7 @@ function nowServing(currntLine){
 }
 
 function currntLine(currntLine){
-  var message "The line is currently:";
+  var message = "The line is currently:";
   for (var i = 0; i < currntLine.length; i++){
     message = message + " " + `${currntLine.indexOf(currntLine[i])}.` +
                                                     `${currntLine[i]}`;

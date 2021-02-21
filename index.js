@@ -11,11 +11,11 @@ function nowServing(currntLine){
   }
 }
 
-function currntLine(currntLine){
+function currntLine(katzDeliLine){
   var message = "The line is currently:";
-  for (var i = 0; i < currntLine.length; i++){
-    message = message + " " + `${currntLine.indexOf(currntLine[i])}.` +
-                                                    `${currntLine[i]}`;
+  for (var i = 0; i < katzDeliLine.length; i++){
+    message = message + " " + `${katzDeliLine.indexOf(katzDeliLine[i])}.` +
+                                                    `${katzDeliLine[i]}`;
     
   }
   return message;

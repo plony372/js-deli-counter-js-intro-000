@@ -16,7 +16,7 @@ function nowServing(currntLine){
     if (katzDeliLine.length > 0){
     for (var i = 0; i < katzDeliLine.length; i++){
       message = message + " " + `${katzDeliLine.indexOf(katzDeliLine[i]) + 1}. ` +
-                                                      `${katzDeliLine[i] + 1 ? ",": ""}`;
+                                                      `${katzDeliLine[i]}` + {katzDeliLine[i] != (katzDeliLine.length-1) ? ',' : ''};
      }
     }else{
       return "The line is currently empty"

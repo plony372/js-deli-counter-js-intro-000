@@ -18,4 +18,5 @@ function currntLine(currntLine){
                                                     `${currntLine[i]}`;
     
   }
+  return message;
 }
